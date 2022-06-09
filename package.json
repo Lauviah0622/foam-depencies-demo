@@ -12,8 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "remark-frontmatter": "^4.0.1",
-    "remark-parse": "^8.0.2",
-    "remark-wiki-link": "^0.0.4",
+    "remark-parse": "^10.0.1",
+    "remark-wiki-link": "^1.0.4",
     "unified": "^10.1.2"
   }
 }

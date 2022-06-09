@@ -6,7 +6,7 @@ import { unified } from 'unified';
 
 const file = fs.readFileSync('./test.md', { encoding: 'utf-8' });
 
-// console.log(file);
+
 
 const parser = unified()
   .use(markdownParse, { gfm: true })
@@ -16,5 +16,3 @@ const parser = unified()
 const res = parser.parse(file)
 
 console.log(JSON.stringify(res));
-// console.log(res.position);
-// console.log(res.children[0].children);
