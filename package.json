@@ -1,0 +1,19 @@
+{
+  "name": "wikiLinkTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "remark-frontmatter": "^4.0.1",
+    "remark-parse": "^8.0.2",
+    "remark-wiki-link": "^0.0.4",
+    "unified": "^10.1.2"
+  }
+}
